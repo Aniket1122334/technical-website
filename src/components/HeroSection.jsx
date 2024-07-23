@@ -13,7 +13,7 @@ const HeroSection = () => {
           <h1 className="text-[5.5rem] font-bold">{name}</h1>
           <p className="left-section-p text-[1.3rem] pt-1">{paragraph}</p>
 
-          <Link to="/contacts">
+          <Link to="/contact">
             <button className="bg-[#6354F2] w-[8rem] h-[3rem] text-white font-semibold uppercase rounded-xl shadow-lg shadow-indigo-500/50 mt-6 hover:bg-[#162ad9] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105 hover: duration-200">
               Contact Us
             </button>
