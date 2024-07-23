@@ -4,6 +4,8 @@
 
 html {
   overflow-x: hidden;
+  /* width: 90%; */
+  /* background-color: aqua; */
 }
 
 body {
@@ -84,7 +86,7 @@ nav li {
   }
 
   body {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .header {
@@ -131,12 +133,6 @@ nav li {
   .contact {
     width: 100%;
     /* background-color: blanchedalmond; */
-  }
-
-  .contact-box {
-    /* background-color: aqua; */
-
-    /* padding-right: 1rem; */
   }
 
   .contactForm {
@@ -218,7 +214,8 @@ nav li {
 
   .top-btn {
     /* background-color: aqua; */
-    right: 53%;
+    right: 5%;
+    top: 83%;
     /* position: fixed; */
   }
 }

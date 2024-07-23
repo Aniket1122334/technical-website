@@ -19,16 +19,19 @@
     width: 100vw;
     height: 100vh;
     position: absolute;
+    display: inline-block;
     top: 0;
-    left: 0;
-    /* background-color: red; */
+    left: 0rem;
+
+    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     visibility: hidden;
     opacity: 0;
-    transform: translateX(100%);
+    /* transform: translateX(100%); */
+    /* overflow: hidden; */
   }
 
   .active .mobile-nav-icon {
