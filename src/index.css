@@ -1,0 +1,224 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #15191a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border: 5px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+}
+h1 {
+  color: rgb(24 24 29);
+  font-size: 6rem;
+  font-weight: 300;
+}
+
+h2 {
+  color: rgb(24 24 29);
+  font-size: 4.4rem;
+  font-weight: 300;
+  white-space: normal;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+p {
+  color: rgb(24 24 29);
+  opacity: 0.7;
+  font-size: 1.65rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+nav li {
+  font-family: "Work Sans", system-ui, sans-serif;
+}
+
+.fixed-button {
+  animation: gototop 0.4s linear infinite alternate-reverse;
+}
+
+@keyframes gototop {
+  0% {
+    transform: translateY(-0.5rem);
+  }
+
+  100% {
+    transform: translateY(0.5rem);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .header {
+    padding-left: 15px;
+    /* background-color: aqua; */
+  }
+
+  /* home section */
+
+  .left-section-hero {
+    display: block;
+    min-height: 38rem;
+    /* background-color: bisque; */
+  }
+
+  .left-section {
+    width: 100%;
+    padding: 1.3rem;
+  }
+
+  .left-section h1 {
+    font-size: 3.5rem;
+    /* background-color: aqua; */
+  }
+
+  .left-section-p {
+    /* background-color: aqua; */
+    width: 100%;
+  }
+
+  .right-section {
+    display: none;
+  }
+
+  /* services seection */
+
+  .section {
+    /* background-color: aqua; */
+    padding-right: 0.2rem;
+  }
+
+  /* contact section */
+
+  .contact {
+    width: 100%;
+    /* background-color: blanchedalmond; */
+  }
+
+  .contact-box {
+    /* background-color: aqua; */
+
+    /* padding-right: 1rem; */
+  }
+
+  .contactForm {
+    /* background-color: blue; */
+    width: 100%;
+  }
+
+  .form {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5rem;
+    /* background-color: aqua; */
+  }
+  .input {
+    width: 40%;
+  }
+
+  /* footer section */
+
+  .strip {
+    /* background-color: aqua; */
+    width: 90%;
+    padding: 1rem;
+    transform: translateY(50%);
+  }
+
+  .strip-para {
+    font-size: 1rem;
+    /* background-color: red; */
+    padding: 1rem;
+  }
+
+  .strip-para p {
+    font-size: 1.3rem;
+  }
+
+  .footer {
+    /* background-color: red; */
+    min-height: 40rem;
+  }
+
+  .footer-grid {
+    /* background-color: aqua; */
+    width: 100%;
+    /* padding: 2rem; */
+  }
+
+  .grid-structure {
+    /* background-color: blue; */
+    display: block;
+    gap: 0;
+    width: 100%;
+    padding-top: 20rem;
+  }
+
+  .follow {
+    padding: 0;
+  }
+
+  .thanks p {
+    font-size: 1.3rem;
+  }
+
+  .number {
+    justify-content: start;
+  }
+
+  .lower-section {
+    height: 10rem;
+    margin-top: 13rem;
+  }
+
+  .bottom {
+    height: 0rem;
+    background-color: aqua;
+    margin-top: 3rem;
+  }
+
+  .top-btn {
+    /* background-color: aqua; */
+    right: 53%;
+    /* position: fixed; */
+  }
+}

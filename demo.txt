@@ -1,0 +1,41 @@
+bg-[#F6FAFB]
+
+#162ad9
+
+
+
+import React, { useContext } from "react";
+import HeroSection from "./HeroSection";
+
+const Home = () => {
+  const firstName = useContext(AppContext);
+  const data = {
+    name: "GadgetGate",
+    image: "/images/home.jpg",
+    paragraph:
+      "Welcome to GadgetGate, the ultimate destination for cutting-edge technology and innovative gadgets. At GadgetGate, we bring you the latest and greatest in tech, from sleek smartphones and powerful laptops to smart home devices and must-have accessories. Our curated selection ensures you stay ahead of the curve with the most advanced and reliable products on the market.",
+  };
+
+  return (
+    <>
+      <HeroSection {...data} />
+    </>
+  );
+};
+
+export default Home;
+
+
+
+const data = {
+    name: "About Us",
+    image: "/images/about.jpg",
+    paragraph: `At GadgetGate, we are passionate about bringing the future of technology to your doorstep. Founded by tech enthusiasts, our mission is to provide you with the latest and most innovative gadgets that simplify and enhance your life. We meticulously curate our selection to ensure quality, reliability, and cutting-edge performance. 
+
+    Our commitment to excellence goes beyond just offering great products. We strive to deliver exceptional customer service, making your shopping experience seamless and enjoyable. `,
+  };
+
+
+
+
+  TechnicalWebsiteReactProject
